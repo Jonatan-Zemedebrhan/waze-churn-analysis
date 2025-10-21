@@ -4,16 +4,22 @@ This project was completed as part of the **Google Advanced Data Analytics Certi
 
 ---
 
-## 📌 Project Goals
+## Project Goals
 
 - Explore and clean user-level activity data from Waze
 - Visualize behavioral differences between retained and churned users
 - Identify early indicators of churn (e.g. session spikes, driving intensity)
 - Communicate results in the form of an executive summary
 
+## Executive Summary
+Analysis of 15,000+ Waze users revealed that **churners drove less frequently 
+but more intensely** (600+ km/day). 42% of their sessions occurred in the 
+final month, indicating detectable early warning signals. Recommended: 
+targeted onboarding for new users and activity-based churn risk scoring.
+
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 waze-churn-analysis/
@@ -24,7 +30,7 @@ waze-churn-analysis/
 
 ---
 
-## 📊 Key Visualizations
+## Key Visualizations
 
 ### Histogram of Sessions  
 ![Histogram of Sessions](visuals/hist_sessions.png)
@@ -52,7 +58,7 @@ waze-churn-analysis/
 
 ---
 
-## 📈 Summary of Key Insights
+## Summary of Key Insights
 
 - **Churners drove less frequently**, but covered more kilometers per driving day
 - Over **42% of their sessions occurred in the final month**
@@ -61,7 +67,7 @@ waze-churn-analysis/
 
 ---
 
-## 💡 Business Recommendations
+## Business Recommendations
 
 - Send personalized onboarding nudges in weeks 1–2
 - Flag high-risk users with session spikes or >600 km/day driving
@@ -70,7 +76,7 @@ waze-churn-analysis/
 
 ---
 
-## 🛠️ Tools & Techniques
+## Tools & Techniques
 
 - Python: `pandas`, `seaborn`, `matplotlib`
 - Jupyter Notebook for analysis & commentary
@@ -79,7 +85,7 @@ waze-churn-analysis/
 
 ---
 
-## 👤 Author
+## Author
 
 **Jonatan Zemedebrhan**  
 Google Advanced Data Analytics Certificate – Course 3  
